@@ -22,7 +22,6 @@ const Portfolio = () => {
     ]
     return (
         <>
-            <Background />
             <NavBar />
             <section className="bg-primary px-5 text-[#181818] pb-10">
                 <div className="container mx-auto">
@@ -32,7 +31,7 @@ const Portfolio = () => {
                         </h1>
                     </div>
                     <div>
-                        <div className="mb-12">
+                        <div className="mb-12" style={{ backgroundColor: '#F3F4F6' }}>
                             <div className='flex items-center'>
                                 <img src={Rhythmix} alt="Rhythmix Image" className='w-1/2' />
                                 <div className='w-1/2 pl-4'>
@@ -40,7 +39,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mb-12">
+                        <div className="mb-12 bg-[#F3F4F6] hover:bg-gradient-to-r from-white via-red-550 to-red-500">
                             <div className='flex items-center'>
                                 <div className='w-1/2 pr-4'>
                                     <p>State Farm Interactive Hazard Game</p>
