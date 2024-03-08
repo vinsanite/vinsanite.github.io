@@ -22,12 +22,12 @@ const NavBar = () => {
     return (
         <header>
             <div className='shadow-md w-full fixed top-0 left-0 z-20'>
-                <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
+                <div className='relative md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
                     <div className='font-bold text-2xl flex items-center font-[Poppins] text-gray-800 hover:bg-gradient-to-r from-green-500 via-indigo-500 to-purple-500 hover:text-transparent hover:bg-clip-text'>
                         VN
                     </div>
 
-                    <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
+                    <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-1/2 transform -translate-y-1/2 cursor-pointer md:hidden'>
                         {open ? <FiX /> : <FiMenu />}
                     </div>
 
