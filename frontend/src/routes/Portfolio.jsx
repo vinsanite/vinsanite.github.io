@@ -41,13 +41,13 @@ const Portfolio = () => {
                                     {index % 2 === 0 ? (
                                             <>
                                                 <img src={item.img} alt={item.title} className='w-1/2' />
-                                                <div className='w-1/2 pl-4'>
+                                                <div className='w-1/2'>
                                                     <p>{item.title}</p>
                                                 </div>
                                             </>
                                         ) : (
                                             <>
-                                                <div className='w-1/2 pr-4'>
+                                                <div className='w-1/2'>
                                                     <p>{item.title}</p>
                                                 </div>
                                                 <img src={item.img} alt={item.title} className='w-1/2' />
