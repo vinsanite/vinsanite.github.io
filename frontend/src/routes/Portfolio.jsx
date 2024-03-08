@@ -31,7 +31,7 @@ const Portfolio = () => {
                         </h1>
                     </div>
                     <div>
-                        <div className="mb-12" style={{ backgroundColor: '#F3F4F6' }}>
+                        <div className="mb-12 bg-[#F3F4F6] hover:bg-gradient-to-t from-[#F6CC78] via-[#EC736A] to-[#5C199A] hover:text-white">
                             <div className='flex items-center'>
                                 <img src={Rhythmix} alt="Rhythmix Image" className='w-1/2' />
                                 <div className='w-1/2 pl-4'>
@@ -39,7 +39,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mb-12 bg-[#F3F4F6] hover:bg-gradient-to-r from-white via-red-550 to-red-500">
+                        <div className="mb-12 bg-[#F3F4F6] hover:bg-gradient-to-r from-white via-red-600 to-[#D33D33]">
                             <div className='flex items-center'>
                                 <div className='w-1/2 pr-4'>
                                     <p>State Farm Interactive Hazard Game</p>
